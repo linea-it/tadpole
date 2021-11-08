@@ -1,4 +1,4 @@
-# LSST Brazil 2021 Módulo I & II
+# LSST Brazil 2021
 
 ## Installation
 
