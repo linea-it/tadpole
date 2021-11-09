@@ -13,16 +13,15 @@ export default function Routes() {
 
   return (
     <BrowserRouter>
-      <div className={classes.background}>
-        <div className={classes.container}>
-          <Header />
-          <Switch>
-            <Route exact path="/" component={Home} />
-            <Route exact path="/programa" component={Programa} />
-            <Route exact path="/informacoes" component={Informacoes} />
-            <Route component={NotFound} />
-          </Switch>
-        </div>
+      <div className={classes.container}>
+        <div className={classes.background} />
+        <Header />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/programa" component={Programa} />
+          <Route exact path="/informacoes" component={Informacoes} />
+          <Route component={NotFound} />
+        </Switch>
       </div>
     </BrowserRouter>
   );
