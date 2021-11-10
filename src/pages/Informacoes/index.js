@@ -24,9 +24,15 @@ function Informacoes() {
               color="inherit"
               gutterBottom
             >
-              O evento LSST Brazil 2021 é uma iniciativa do Laboratório
-              Interinstitucional de e-Astronomia (LIneA) em apresentar à
-              comunidade brasileira o andamento e grandiosidade do ambicioso
+              O evento <strong>LSST Brazil 2021</strong> é uma iniciativa do{' '}
+              <Link
+                href="https://www.linea.gov.br"
+                target="_blank"
+                className={classes.bodyLink}
+              >
+                Laboratório Interinstitucional de e-Astronomia (LIneA)
+              </Link>{' '}
+              em apresentar à comunidade brasileira o andamento do ambicioso
               projeto{' '}
               <Link
                 href="https://www.lsst.org"
@@ -35,18 +41,9 @@ function Informacoes() {
               >
                 Legacy Survey of Space and Time (LSST)
               </Link>
-              , que será conduzido no Vera C. Rubin Observatory e já tem o
-              início de suas atividades programadas para o ano de 2022 e se
-              estenderá até 2035. Com um espelho de 8,4 metros e uma câmara
-              digital de 3,2 Gigapixels, o LSST produzirá o maior e mais
-              completo mapa do Universo, com 37 bilhões de estrelas e galáxias.
-              O LSST é uma grande colaboração internacional, com 28 países
-              participando do projeto. O Brasil participa do LSST desde 2015
-              através de um acordo do qual o LIneA é signatário. Esta
-              participação é coordenada pelo Brazilian Participation Group
-              (BPG-LSST). Recentemente, através de projetos submetidos pelo
-              LIneA, um grande número de novas posições estão disponíveis para a
-              comunidade brasileira interessada em trabalhar no LSST.{' '}
+              , que será conduzido no <em>Vera C. Rubin Observatory</em> e já
+              tem o início de suas atividades programadas para o ano de 2022 e
+              se estenderá até 2038.
             </Typography>
             <br />
             <Typography
@@ -56,15 +53,31 @@ function Informacoes() {
               color="inherit"
               gutterBottom
             >
-              Os objetivos deste Evento de dois dias são: Além de (1) trazer
-              atualizações sobre o LSST e (2), o evento também irá mostrar as
-              oportunidades para comunidade científica e encorajar sua
-              participação neste projeto na fronteira do conhecimento. através
-              do Grupo de Participação Brasileiro (BPG-LSST), para o qual o
-              LIneA obteve recentemente novas posições. Para tal, foram
-              convidados pesquisadores internacionais ligados diretamente ao
-              projeto (dia 1) e pesquisadores brasileiros ligados ao BPG (dia
-              2).
+              Com um espelho de 8,4 metros e uma câmara digital de 3,2
+              Gigapixels, o LSST produzirá o maior e mais completo mapa do
+              Universo, com 37 bilhões de estrelas e galáxias. O LSST é uma
+              grande colaboração internacional, com 28 países participando do
+              projeto. O Brasil participa do LSST desde 2015 através de um
+              acordo do qual o LIneA é signatário. Esta participação é
+              coordenada pelo <em>Brazilian Participation Group (BPG-LSST)</em>.
+              Recentemente, através de projetos submetidos pelo LIneA, um grande
+              número de novas posições estão disponíveis para a comunidade
+              brasileira interessada em trabalhar no LSST.
+            </Typography>
+            <br />
+            <Typography
+              variant="body1"
+              className={classes.bodyTextBigger}
+              align="justify"
+              color="inherit"
+              gutterBottom
+            >
+              Os objetivos deste evento de dois dias são: (1) trazer
+              atualizações sobre o LSST e (2) mostrar as oportunidades para
+              comunidade científica e encorajar sua participação neste projeto
+              na fronteira do conhecimento. Para tal, foram convidados
+              pesquisadores internacionais ligados diretamente ao projeto (dia
+              1) e pesquisadores brasileiros ligados ao BPG (dia 2).
             </Typography>
             <br />
             <Typography
