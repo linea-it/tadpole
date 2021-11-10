@@ -81,9 +81,7 @@ function TabPanel(props) {
               {scheduleSelected.date}
             </Typography>
             <Typography variant="h6" align="center" color="primary">
-              {scheduleSelected.chair.includes('Tassia')
-                ? `Moderadora: ${scheduleSelected.chair}`
-                : `Moderador: ${scheduleSelected.chair}`}
+              {`Moderadora: ${scheduleSelected.chair}`}
             </Typography>
             <Typography
               variant="h6"
