@@ -16,7 +16,7 @@ function Home() {
             LSST Brazil 2021
           </Typography>
           <Typography variant="h2" className={classes.subtitle}>
-            Venha saber como participar!
+            Saiba como participar do projeto!
           </Typography>
           <Typography variant="h3" className={classes.dates}>
             07 - 08 de Dezembro

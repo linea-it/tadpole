@@ -13,6 +13,9 @@ const styles = makeStyles(() => ({
   bodyTextBigger: {
     fontSize: '1.25rem',
   },
+  bodyLink: {
+    color: '#00b9f2',
+  },
 }));
 
 export default styles;

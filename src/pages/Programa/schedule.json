@@ -1,0 +1,179 @@
+{
+	"events": [
+    {
+			"id": 1,
+			"day": "01",
+			"date": "07-12-2021",
+      "chair": "Julia Gschwend",
+      "youtube": "https://youtu.be/jveBuqa8qQU",
+			"rows": [{
+				"id": 1,
+				"time": "13:00 - 13:10",
+				"title": "Welcome",
+				"speaker": "Julia Gschwend",
+				"affiliation": "LIneA/INCT do e-Universo",
+        "slide": "",
+        "youtube": ""
+			},
+      {
+				"id": 2,
+				"time": "13:10 - 13:20",
+				"title": "Brazil is now a part of the Rubin Observatory community",
+				"speaker": "Greg Madejski",
+				"affiliation": "SLAC",
+        "slide": "",
+        "youtube": ""
+			},
+      {
+				"id": 3,
+				"time": "13:20 - 13:50",
+				"title": "Rubin Observatory: Construction Status Update and Preparations for Operations",
+				"speaker": "Zeljko Ivezic",
+				"affiliation": "University of Washington",
+        "slide": "",
+        "youtube": ""
+			},
+      {
+				"id": 4,
+				"time": "13:50 - 14:20",
+				"title": "Science Opportunities with the Rubin LSST",
+				"speaker": "Michael Strauss",
+				"affiliation": "Princeton University",
+        "slide": "",
+        "youtube": ""
+			},
+      {
+				"id": 5,
+				"break": true
+			},
+      {
+				"id": 6,
+				"time": "14:30 - 15:00",
+				"title": "Rubin Data and Data Access",
+				"speaker": "Wil O’Mullane",
+				"affiliation": "Rubin Observatory",
+        "slide": "",
+        "youtube": ""
+			},
+      {
+				"id": 7,
+				"time": "15:00 - 15:20",
+				"title": "LSST Corporation: Helping Scientists Use Rubin LSST",
+				"speaker": "Jeniffer Sokoloski",
+				"affiliation": "University of Columbia",
+        "slide": "",
+        "youtube": ""
+			},
+      {
+				"id": 8,
+				"time": "15:20 - 15:40",
+				"title": "Introducing the Rubin Education and Public Outreach Program",
+				"speaker": "Lauren Corlies",
+				"affiliation": "Rubin Observatory",
+        "slide": "",
+        "youtube": ""
+			}]
+		},
+		{
+			"id": 2,
+			"day": "02",
+			"date": "08-12-2021",
+      "chair": "Tassia Ferreira",
+      "youtube": "https://youtu.be/GpbDKHAWrS8",
+			"rows": [{
+				"id": 1,
+				"time": "13:00 - 13:20",
+        "title": "LIneA na era do LSST",
+				"speaker": "Luiz Nicolaci",
+				"affiliation": "LIneA",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 2,
+				"time": "13:20 - 13:40",
+        "title": "LIneA in-kind contribution",
+				"speaker": "Julia Gschwend",
+				"affiliation": "LIneA",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 3,
+				"time": "13:40 - 14:00",
+        "title": "IDAC Brazil",
+				"speaker": "Carlos Adean",
+				"affiliation": "LIneA",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 4,
+				"time": "14:00 - 14:20",
+        "title": "Brazilian Participation Group in the LSST",
+				"speaker": "Rogerio Rosenfeld",
+				"affiliation": "IFT-UNESP/ICTP-SAIFR",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 5,
+				"break": true
+      }, {
+				"id": 6,
+				"time": "14:30 - 14:40",
+        "title": "A colaboração Stars, Milky-Way and Local Volume Populações estelares resolvidas com o LSST",
+				"speaker": "Basilio Santiago",
+				"affiliation": "UFRGS",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 7,
+				"time": "14:40 - 14:50",
+        "title": "Ocultações Estelares na era Gaia e LSST",
+				"speaker": "Julio Camargo",
+				"affiliation": "ON",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 8,
+				"time": "14:50 - 15:00",
+        "title": "Galaxy clusters: cosmology, mass estimation, and calibration",
+				"speaker": "Mariana Penna-Lima",
+				"affiliation": "UnB",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 9,
+				"time": "15:00 - 15:10",
+        "title": "Cosmology with LSST Type Ia Supernovae",
+				"speaker": "Valerio Marra",
+				"affiliation": "UFES",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 10,
+				"time": "15:10 - 15:20",
+        "title": "Ciência com o LIneA e INCT e-Universo",
+				"speaker": "Tassia Ferreira",
+				"affiliation": "LIneA/INCT do e-Universo",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }, {
+				"id": 11,
+				"time": "15:20",
+        "title": "Q&A",
+				"speaker": "All",
+				"affiliation": "",
+        "abstract": "",
+        "slide": "",
+        "youtube": ""
+      }]
+		}
+  ]
+}

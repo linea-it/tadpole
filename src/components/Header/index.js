@@ -4,8 +4,14 @@ import Toolbar from '@material-ui/core/Toolbar';
 import { Link } from 'react-router-dom';
 import List from '@material-ui/core/List';
 import ListItem from '@material-ui/core/ListItem';
-import MenuIcon from '@material-ui/icons/Menu';
-import CloseIcon from '@material-ui/icons/Close';
+import {
+  Menu as MenuIcon,
+  Close as CloseIcon,
+  Facebook as FacebookIcon,
+  Instagram as InstagramIcon,
+  Twitter as TwitterIcon,
+  YouTube as YouTubeIcon,
+} from '@material-ui/icons';
 import { Button } from '@material-ui/core';
 import styles from './styles';
 
@@ -37,21 +43,53 @@ function Header() {
     <>
       <AppBar position="static" className={classes.appbar}>
         <Toolbar className={classes.toolbar}>
-          <div>
-            <a href="http://linea.gov.br/">
-              <img
-                src={`${process.env.PUBLIC_URL}/img/logo-linea.png`}
-                alt="LIneA"
-                className={classes.logo}
-              />
-            </a>
-            <a href="https://www.linea.gov.br/3-inct-do-e-universo-2/">
-              <img
-                src={`${process.env.PUBLIC_URL}/img/logo-inct.png`}
-                alt="LIneA"
-                className={classes.logoInctMobile}
-              />
-            </a>
+          <div className={classes.lineaAndSocial}>
+            <div className={classes.logos}>
+              <a href="http://linea.gov.br/">
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/logo-linea.png`}
+                  alt="LIneA"
+                  className={classes.logo}
+                />
+              </a>
+              <a href="https://www.linea.gov.br/3-inct-do-e-universo-2/">
+                <img
+                  src={`${process.env.PUBLIC_URL}/img/logo-inct.png`}
+                  alt="LIneA"
+                  className={classes.logoInctMobile}
+                />
+              </a>
+            </div>
+            <div className={classes.socialMedia}>
+              <a
+                href="https://www.facebook.com/linea.mcti"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <FacebookIcon className={classes.socialIcon} />
+              </a>
+              <a
+                href="https://www.instagram.com/linea_mcti"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <InstagramIcon className={classes.socialIcon} />
+              </a>
+              <a
+                href="https://twitter.com/LIneA_mcti"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <TwitterIcon className={classes.socialIcon} />
+              </a>
+              <a
+                href="https://www.youtube.com/user/lineamcti"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <YouTubeIcon className={classes.socialIcon} />
+              </a>
+            </div>
           </div>
           <Button
             color="inherit"
