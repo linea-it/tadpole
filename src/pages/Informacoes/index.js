@@ -76,8 +76,9 @@ function Informacoes() {
               atualizações sobre o LSST e (2) mostrar as oportunidades para
               comunidade científica e encorajar sua participação neste projeto
               na fronteira do conhecimento. Para tal, foram convidados
-              pesquisadores internacionais ligados diretamente ao projeto (dia
-              1) e pesquisadores brasileiros ligados ao BPG (dia 2).
+              pesquisadores internacionais ligados diretamente ao projeto (dia 1
+              - apresentado em inglês) e pesquisadores brasileiros ligados ao
+              BPG (dia 2 - apresentado em português).
             </Typography>
             <br />
             <Typography

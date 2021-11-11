@@ -57,6 +57,22 @@ const useStyles = makeStyles((theme) => ({
       flexDirection: 'column',
     },
   },
+
+  lineaAndSocial: {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
+  },
+
+  socialMedia: {
+    marginLeft: 20,
+  },
+
+  socialIcon: {
+    color: '#fff',
+    margin: '0 4px',
+  },
+
   menuMobileButton: {
     display: 'none',
     [theme.breakpoints.down('md')]: {

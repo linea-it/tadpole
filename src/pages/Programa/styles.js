@@ -4,9 +4,9 @@ const styles = makeStyles((theme) => ({
   container: {
     position: 'relative',
     zIndex: 2,
-    // maxWidth: 1620,
+    maxWidth: 1700,
     display: 'block',
-    margin: 'auto',
+    margin: '20px auto auto auto',
   },
   root: {
     flexGrow: 1,
@@ -18,8 +18,12 @@ const styles = makeStyles((theme) => ({
     marginTop: 20,
   },
   toolbar: {
-    justifyContent: 'center',
-    flexDirection: 'column',
+    justifyContent: 'space-between',
+
+    [theme.breakpoints.down('md')]: {
+      flexDirection: 'column',
+      justifyContent: 'center',
+    },
   },
   tableCell: {
     padding: '10px',
