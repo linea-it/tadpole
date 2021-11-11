@@ -193,7 +193,7 @@ function a11yProps(index) {
 
 function Program() {
   // Change dynamically the page title:
-  document.title = 'LSST Brazil 2021 | Program';
+  document.title = 'LSST Brazil 2021 | Programa';
   const classes = styles();
   const [value, setValue] = React.useState(0);
   const handleChange = (event, newValue) => {

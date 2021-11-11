@@ -5,7 +5,7 @@ import useStyles from './styles';
 function Informacoes() {
   const classes = useStyles();
   // Change dynamically the page title:
-  document.title = 'LSST Brazil 2021 | Informações Adicionais';
+  document.title = 'LSST Brazil 2021 | Informações';
 
   return (
     <div>
