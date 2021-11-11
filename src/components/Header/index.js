@@ -68,7 +68,11 @@ function Header() {
               >
                 <FacebookIcon className={classes.socialIcon} />
               </a>
-              <a href="www.instagram.com/linea_mcti" target="_blank">
+              <a
+                href="https://www.instagram.com/linea_mcti"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <InstagramIcon className={classes.socialIcon} />
               </a>
               <a
