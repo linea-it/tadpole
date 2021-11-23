@@ -102,6 +102,18 @@ function Informacoes() {
               color="inherit"
               gutterBottom
             >
+              Os participantes que desejarem receber o certificado de
+              participação deverão preencher o formulário que será enviado pelo
+              chat do YouTube durante o evento.
+            </Typography>
+            <br />
+            <Typography
+              variant="body1"
+              className={classes.bodyTextBigger}
+              align="justify"
+              color="inherit"
+              gutterBottom
+            >
               Demais dúvidas podem ser encaminhadas para{' '}
               <strong>
                 <Link
