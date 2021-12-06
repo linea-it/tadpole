@@ -11,6 +11,7 @@ const styles = makeStyles((theme) => ({
 
   playlistContainer: {
     marginTop: 20,
+    textAlign: 'center',
 
     [theme.breakpoints.down('md')]: {
       width: '100%',
