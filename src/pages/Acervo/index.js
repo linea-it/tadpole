@@ -3,6 +3,9 @@ import { Container } from '@material-ui/core';
 import useStyles from './styles';
 
 function Acervo() {
+  // Change dynamically the page title:
+  document.title = 'LSST Brazil 2021 | Acervo';
+
   const classes = useStyles();
 
   return (
