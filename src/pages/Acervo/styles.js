@@ -13,6 +13,10 @@ const styles = makeStyles((theme) => ({
     marginTop: 20,
     textAlign: 'center',
 
+    [theme.breakpoints.between('md', 'lg')]: {
+      marginTop: 10,
+    },
+
     [theme.breakpoints.down('md')]: {
       width: '100%',
     },
@@ -22,8 +26,8 @@ const styles = makeStyles((theme) => ({
     width: 1200,
     height: 675,
     [theme.breakpoints.down('lg')]: {
-      width: 800,
-      height: 450,
+      width: 700,
+      height: 400,
     },
     [theme.breakpoints.down('md')]: {
       width: '100%',
