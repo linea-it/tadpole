@@ -114,6 +114,19 @@ function Informacoes() {
               color="inherit"
               gutterBottom
             >
+              <strong>
+                Os interessados não precisarão de cadastro para participar do
+                evento.
+              </strong>
+            </Typography>
+            <br />
+            <Typography
+              variant="body1"
+              className={classes.bodyTextBigger}
+              align="justify"
+              color="inherit"
+              gutterBottom
+            >
               Demais dúvidas podem ser encaminhadas para{' '}
               <strong>
                 <Link
