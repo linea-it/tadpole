@@ -67,22 +67,24 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   dates: {
-    fontSize: '2.8rem',
+    fontSize: '2.2rem',
     fontWeight: 'bold',
-    marginTop: 40,
+    marginTop: 30,
 
     [theme.breakpoints.down('lg')]: {
-      fontSize: '1.8rem',
-      marginTop: 30,
-    },
-    [theme.breakpoints.down('md')]: {
-      fontSize: '1.6rem',
+      fontSize: '1.7rem',
       marginTop: 20,
     },
-    [theme.breakpoints.down('sm')]: {
-      fontSize: '1.4rem',
+    [theme.breakpoints.down('md')]: {
+      fontSize: '1.5rem',
       marginTop: 10,
     },
+    [theme.breakpoints.down('sm')]: {
+      fontSize: '1.1rem',
+    },
+  },
+  link: {
+    color: '#0086c4',
   },
 }));
 

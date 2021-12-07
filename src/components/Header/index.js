@@ -33,6 +33,10 @@ function Header() {
       description: 'Informações',
       href: '/informacoes',
     },
+    {
+      description: 'Webinares',
+      href: '/webinares',
+    },
   ];
 
   const toggleMenuClick = () => {
