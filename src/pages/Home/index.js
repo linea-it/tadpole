@@ -18,8 +18,28 @@ function Home() {
           <Typography variant="h2" className={classes.subtitle}>
             Saiba como participar do projeto!
           </Typography>
-          <Typography variant="h3" className={classes.dates}>
+          {/* <Typography variant="h3" className={classes.dates}>
             07 - 08 de Dezembro
+          </Typography> */}
+          <Typography variant="h3" className={classes.dates}>
+            YouTube do Dia 7:{' '}
+            <Link
+              href="https://youtu.be/jveBuqa8qQU"
+              target="_blank"
+              className={classes.link}
+            >
+              https://youtu.be/jveBuqa8qQU
+            </Link>
+          </Typography>
+          <Typography variant="h3" className={classes.dates}>
+            YouTube do Dia 8:{' '}
+            <Link
+              href="https://youtu.be/GpbDKHAWrS8"
+              target="_blank"
+              className={classes.link}
+            >
+              https://youtu.be/GpbDKHAWrS8
+            </Link>
           </Typography>
         </Grid>
         <Grid item xs={12} className={classes.logos}>

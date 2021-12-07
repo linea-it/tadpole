@@ -34,8 +34,8 @@ function Header() {
       href: '/informacoes',
     },
     {
-      description: 'Acervo',
-      href: '/acervo',
+      description: 'Webinares',
+      href: '/webinares',
     },
   ];
 

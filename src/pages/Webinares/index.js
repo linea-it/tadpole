@@ -2,9 +2,9 @@ import React from 'react';
 import { Container, Grid, Typography } from '@material-ui/core';
 import useStyles from './styles';
 
-function Acervo() {
+function Webinares() {
   // Change dynamically the page title:
-  document.title = 'LSST Brazil 2021 | Acervo';
+  document.title = 'LSST Brazil 2021 | Webinares';
 
   const classes = useStyles();
 
@@ -12,13 +12,27 @@ function Acervo() {
     <Container className={classes.container}>
       <Grid
         container
-        direction="column"
-        justifyContent="flex-start"
-        alignItems="center"
+        // direction="column"
+        justifyContent="center"
+        alignItems="flex-start"
       >
         <Grid item>
           <Typography variant="h3" align="center" color="inherit">
-            Acervo
+            Webinares
+          </Typography>
+          <br />
+          <br />
+          <Typography
+            variant="body1"
+            className={classes.bodyTextBigger}
+            align="justify"
+            color="inherit"
+            gutterBottom
+          >
+            Ao longo dos anos o LIneA vem organizando webinares com
+            pesquisadores e tecnólogos do Vera C. Rubin Observatory, tentando
+            apresentar diferentes aspectos do projeto. Segue abaixo o acervo
+            compilado com 40 vídeos:
           </Typography>
         </Grid>
         <Grid item className={classes.playlistContainer}>
@@ -38,4 +52,4 @@ function Acervo() {
   );
 }
 
-export default Acervo;
+export default Webinares;

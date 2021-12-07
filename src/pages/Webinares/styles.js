@@ -34,6 +34,10 @@ const styles = makeStyles((theme) => ({
       height: '400',
     },
   },
+
+  bodyTextBigger: {
+    fontSize: '1.25rem',
+  },
 }));
 
 export default styles;
